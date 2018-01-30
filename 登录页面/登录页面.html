@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="dlym.css"/>
+	</head>
+	<body>
+		<header>
+			<img src="img/登录页完成效果_03.png"/>
+			<div class="head_right">
+				<p>您好，欢迎光临1号店！</p><a href="../登录页面/登录页面.html">请登录</a>
+				<select>
+					<option>帮助中心</option>
+				</select>
+			</div>
+		</header>
+		<form action="">
+		<div class="content">
+			<img src="img/登录页完成效果_07.png"/>
+			<div class="biao">
+				<div class="dl">
+					<p>1号店用户登录</p><a href="../注册页面/页面注册完成效果.html">注册用户</a>
+				</div>
+				<input type="text" placeholder="邮箱/手机/用户名" pattern="/^1[3|4|5|7|8][0-9]\d{4,8}$/" maxlength="11" oninvalid="setCustomValidity('脑子是个好东西.希望你也有');" required/>
+				<input type="password" placeholder="密码" maxlength="15" pattern="/^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]{6,22}$/" oninvalid="setCustomValidity('脑子是个好东西.希望你也有');" required/>
+				<div class="wang">
+					<div class="zi">
+						<input type="checkbox" /><p>自动登录</p>
+					</div>
+					<p>忘记密码？</p>
+				</div>
+				<button>登录</button>
+				<p class="geng">更多合作网站账号登录</p>
+				<div class="wang">
+					<img src="img/登录页完成效果_11.png"/><img src="img/登录页完成效果_13.png"/><img src="img/登录页完成效果_15.png"/><p class="geng">更多合作网站</p>
+				</div>
+			</div>
+		</div>
+		</form>
+		<footer>
+			<p>沪ICP备13044278号 |合字B1.B2-20130004 | 营业执照</p>
+			<p>Copyright&copy;1号店网上超市2007-2016，All Rights Reserved</p>
+		</footer>
+	</body>
+	<script type="text/javascript">
+		var btn=document.querySelector("button");
+		var input = document.querySelectorAll("input");
+		var flag=false;
+		btn.onclick=function(){
+			var data = localStorage.getItem('message');
+			var obj=JSON.parse(data);
+			for (var i=0;i<obj.length;i++) {
+				if (input[0].value==obj[i].sj&&input[1].value==obj[i].pase) {
+					flag=true;
+				}	
+			}
+			if(flag==true){
+				alert("登陆成功");
+			}else{
+				alert("登录失败");
+			}
+		}
+	</script>
+</html>

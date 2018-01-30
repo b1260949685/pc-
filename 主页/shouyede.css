@@ -1,0 +1,508 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+.head-top {
+  height: 40px;
+  background: linear-gradient(to bottom, #D4D4D4, #F5F5F5);
+  line-height: 40px;
+  font-size: 12px;
+  color: #72818C; }
+  .head-top p {
+    float: left;
+    margin-left: 50px; }
+  .head-top .head_right {
+    float: right;
+    margin-right: 50px; }
+    .head-top .head_right div {
+      float: left;
+      display: inline; }
+    .head-top .head_right ul {
+      float: left; }
+      .head-top .head_right ul li {
+        float: left;
+        margin-left: 5px;
+        position: relative; }
+        .head-top .head_right ul li ol {
+          position: absolute;
+          display: none; }
+          .head-top .head_right ul li ol li {
+            width: 100px;
+            text-align: center;
+            clear: both;
+            line-height: 20px;
+            border: 1px solid red; }
+      .head-top .head_right ul .show:hover ol {
+        display: block; }
+    .head-top .head_right a {
+      color: #FD8D65; }
+    .head-top .head_right .attention img {
+      height: 20px;
+      vertical-align: middle; }
+
+.logo {
+  height: 140px; }
+  .logo .logo-a {
+    float: left;
+    margin-top: 33px;
+    margin-left: 60px; }
+  .logo .search-a {
+    float: left;
+    margin-left: 140px;
+    margin-top: 45px; }
+    .logo .search-a form {
+      margin: 0;
+      padding: 0;
+      font-size: 0; }
+      .logo .search-a form input:nth-of-type(1) {
+        width: 445px;
+        height: 40px;
+        border: none;
+        padding: 0 10px;
+        outline: none;
+        border: 3px solid red; }
+      .logo .search-a form input:nth-of-type(2) {
+        width: 94px;
+        height: 40px;
+        border: none;
+        line-height: 40px;
+        outline: none;
+        background: red;
+        color: #fff; }
+    .logo .search-a .span {
+      margin-top: 5px;
+      margin-right: 10px;
+      font-size: 12px;
+      color: #BE9A8A; }
+  .logo .shop {
+    float: left;
+    margin-left: 230px;
+    margin-top: 45px;
+    height: 40px;
+    width: 130px;
+    background: #F6F6F6;
+    text-align: center;
+    border: none;
+    position: relative; }
+    .logo .shop img {
+      vertical-align: middle;
+      margin-right: 20px; }
+    .logo .shop .gou {
+      display: none;
+      -background: gold;
+      position: absolute;
+      top: 40px;
+      left: -125px;
+      width: 270px;
+      -height: 500px;
+      border-top: 5px solid #FB0102;
+      box-shadow: 0 0 10px 3px gray;
+      z-index: 10;
+      font-size: 12px; }
+      .logo .shop .gou .shang {
+        width: 270px;
+        height: 136px;
+        background: white; }
+        .logo .shop .gou .shang .li_gou {
+          width: 270px;
+          height: 30px;
+          background: #FAFAFA;
+          overflow: hidden; }
+          .logo .shop .gou .shang .li_gou span:nth-of-type(1) {
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            padding-left: 5px;
+            display: inline-block;
+            float: left;
+            font-weight: 600; }
+          .logo .shop .gou .shang .li_gou span:nth-of-type(2) {
+            width: 50px;
+            height: 30px;
+            line-height: 30px;
+            padding-left: 5px;
+            display: inline-block;
+            float: right; }
+        .logo .shop .gou .shang .products {
+          width: 270px;
+          height: 105px;
+          border-bottom: 1px solid gainsboro; }
+          .logo .shop .gou .shang .products .pro_l {
+            float: left;
+            width: 90px;
+            height: 90px; }
+            .logo .shop .gou .shang .products .pro_l img {
+              margin-top: 10px;
+              width: 100%;
+              height: 100%; }
+          .logo .shop .gou .shang .products .pro_r {
+            padding-top: 10px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            float: left;
+            width: 180px;
+            height: 105px; }
+            .logo .shop .gou .shang .products .pro_r p {
+              line-height: 25px; }
+            .logo .shop .gou .shang .products .pro_r .del_gou {
+              margin-left: 10px;
+              width: 20px;
+              height: 20px;
+              background: gray;
+              color: white;
+              text-align: center;
+              line-height: 20px;
+              display: inline-block;
+              border-radius: 50%; }
+            .logo .shop .gou .shang .products .pro_r .dom {
+              padding-top: 10px;
+              float: left; }
+              .logo .shop .gou .shang .products .pro_r .dom span {
+                padding: 7px 10px;
+                cursor: pointer; }
+            .logo .shop .gou .shang .products .pro_r .price_gou {
+              float: right;
+              width: 40px;
+              height: 30px;
+              line-height: 30px;
+              color: #FF3C3C;
+              font-weight: 600;
+              text-align: center; }
+    .logo .shop .all_gou {
+      width: 270px;
+      height: 60px;
+      background: white;
+      border: 1px solid gainsboro; }
+      .logo .shop .all_gou div {
+        float: left;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        line-height: 60px; }
+    .logo .shop ol {
+      width: 270px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      background: ghostwhite; }
+
+main {
+  width: 1200px;
+  -background: orange;
+  margin: 0 auto; }
+  main nav {
+    line-height: 40px;
+    clear: both;
+    height: 40px;
+    border-bottom: red 3px solid; }
+    main nav p {
+      float: left;
+      width: 215px;
+      background: orangered;
+      color: #FFFFFF;
+      padding-left: 30px;
+      box-sizing: border-box; }
+    main nav ul {
+      margin-left: 10px;
+      float: left;
+      width: 740px; }
+      main nav ul li {
+        margin-right: 35px;
+        font-size: 14px;
+        float: left; }
+      main nav ul li:nth-of-type(1), main nav ul :nth-of-type(2) {
+        color: orange; }
+    main nav .nav-phone {
+      width: 205px;
+      margin-left: 30px;
+      float: left; }
+      main nav .nav-phone img {
+        vertical-align: middle; }
+  main .tab {
+    clear: both; }
+    main .tab .tab-left {
+      width: 215px;
+      background: #b01d1d;
+      color: #fff;
+      float: left; }
+      main .tab .tab-left li {
+        height: 40px;
+        line-height: 40px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        position: relative; }
+        main .tab .tab-left li ol {
+          display: none;
+          position: absolute;
+          left: 215px;
+          top: 0;
+          width: 740px;
+          height: 404px;
+          background: #FFFF00;
+          z-index: 10; }
+    main .tab .lunbo {
+      margin-left: 10px;
+      float: left;
+      width: 740px;
+      height: 404px;
+      overflow: hidden;
+      position: relative; }
+      main .tab .lunbo ul {
+        width: 2236px;
+        height: 404px;
+        position: absolute; }
+        main .tab .lunbo ul li {
+          float: left;
+          width: 740px;
+          height: 404px; }
+          main .tab .lunbo ul li img {
+            width: 100%;
+            height: 100%; }
+    main .tab .tab-right {
+      border: solid 1px #CCCCCC;
+      float: left;
+      margin-left: 30px;
+      font-size: 12px; }
+      main .tab .tab-right .right-top {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 5px;
+        border-bottom: 1px dashed #ccc; }
+        main .tab .tab-right .right-top p {
+          font-size: 16px; }
+      main .tab .tab-right .right-top-c {
+        padding: 20px 0 20px 15px;
+        border-bottom: 1px solid #cccccc;
+        height: 168px;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden; }
+        main .tab .tab-right .right-top-c ul {
+          font-size: 12px;
+          height: 402px;
+          position: absolute; }
+          main .tab .tab-right .right-top-c ul li {
+            height: 30px; }
+      main .tab .tab-right .qian {
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 5px;
+        border-bottom: 1px dashed #ccc; }
+      main .tab .tab-right .jie {
+        box-sizing: border-box;
+        padding: 9px 3px;
+        font-size: 12px; }
+        main .tab .tab-right .jie img {
+          margin-top: 5px; }
+  main .remen {
+    overflow: hidden;
+    clear: both;
+    padding-top: 20px; }
+    main .remen .remen-left {
+      float: left;
+      width: 215px; }
+      main .remen .remen-left img {
+        width: 100%; }
+    main .remen .remen-right {
+      float: left;
+      margin-left: 10px; }
+      main .remen .remen-right div {
+        border: 1px solid #000;
+        height: 228px;
+        width: 242px;
+        float: left;
+        font-size: 12px; }
+        main .remen .remen-right div p {
+          text-align: center; }
+        main .remen .remen-right div p:nth-of-type(1) {
+          font-size: 16px; }
+        main .remen .remen-right div p:nth-of-type(3) {
+          margin-top: 10px; }
+        main .remen .remen-right div span {
+          text-align: center;
+          font-size: 16px;
+          color: orangered;
+          margin-right: 10px; }
+  main .tu {
+    width: 1200px;
+    margin-top: 20px; }
+    main .tu img {
+      width: 100%; }
+  main .louone {
+    margin-top: 20px; }
+    main .louone .lou-top {
+      border-bottom: 2px solid #ff4e00;
+      height: 40px;
+      line-height: 40px; }
+      main .louone .lou-top .lou-left {
+        width: 215px;
+        float: left;
+        font-size: 18px;
+        color: #ff4e00; }
+        main .louone .lou-top .lou-left img {
+          height: 40px;
+          vertical-align: middle;
+          margin-right: 10px; }
+      main .louone .lou-top ul {
+        float: right; }
+        main .louone .lou-top ul li {
+          float: left;
+          margin-right: 25px;
+          color: #555555;
+          font-size: 12px; }
+    main .louone .lou-bottom {
+      clear: both;
+      overflow: hidden; }
+      main .louone .lou-bottom .bottom-left {
+        background: #e4f7ec;
+        float: left;
+        width: 215px;
+        height: 442px; }
+        main .louone .lou-bottom .bottom-left img {
+          width: 100%;
+          height: 286px; }
+        main .louone .lou-bottom .bottom-left ul {
+          margin-top: 4px;
+          background: #e4f7ec; }
+          main .louone .lou-bottom .bottom-left ul li {
+            line-height: 20px;
+            font-size: 12px;
+            border-bottom: dashed 1px #CCCCCC;
+            padding: 8px 20px; }
+            main .louone .lou-bottom .bottom-left ul li span {
+              margin-right: 15px; }
+      main .louone .lou-bottom .bottom-right {
+        float: left;
+        width: 975px;
+        margin-left: 10px; }
+        main .louone .lou-bottom .bottom-right .si {
+          float: left; }
+          main .louone .lou-bottom .bottom-right .si div:hover {
+            box-shadow: 2px 2px 2px 3px #ccc;
+            transform: scale(2px);
+            transition: all 0.5s; }
+          main .louone .lou-bottom .bottom-right .si div:not(.zui) {
+            border-right: 1px solid #ccc;
+            float: left;
+            padding-top: 25px;
+            width: 236px;
+            text-align: center; }
+            main .louone .lou-bottom .bottom-right .si div:not(.zui) p:nth-of-type(1) {
+              font-size: 12px;
+              color: #557a7a; }
+            main .louone .lou-bottom .bottom-right .si div:not(.zui) p:nth-of-type(2) {
+              margin-top: 15px;
+              font-size: 16px;
+              color: #ff4e00; }
+            main .louone .lou-bottom .bottom-right .si div:not(.zui) img {
+              margin-top: 13px; }
+        main .louone .lou-bottom .bottom-right .si:nth-of-type(1) {
+          border-bottom: 1px solid #ccc; }
+        main .louone .lou-bottom .bottom-right .zui {
+          float: left;
+          width: 264px; }
+          main .louone .lou-bottom .bottom-right .zui img {
+            width: 100%; }
+
+footer {
+  width: 1200px;
+  height: 500px;
+  -background: orange;
+  margin: 0 auto;
+  margin-top: 50px; }
+  footer .menu div {
+    float: left;
+    margin-left: 125px;
+    text-align: center; }
+    footer .menu div img {
+      border-radius: 50%; }
+  footer .content {
+    padding: 60px 0;
+    clear: both;
+    overflow: hidden;
+    border-bottom: 1px solid #EBEBEB; }
+    footer .content .content-left {
+      float: left;
+      width: 820px; }
+      footer .content .content-left dl {
+        margin-left: 74px;
+        float: left; }
+        footer .content .content-left dl dt {
+          margin-bottom: 20px;
+          font-size: 16px; }
+        footer .content .content-left dl dd {
+          font-size: 14px;
+          line-height: 20px;
+          color: #F2D6C2; }
+    footer .content .content-right {
+      float: left;
+      margin-left: 135px; }
+      footer .content .content-right .content-right-l {
+        float: left; }
+        footer .content .content-right .content-right-l p {
+          margin-top: 10px; }
+      footer .content .content-right .content-right-r {
+        float: left;
+        margin-left: 10px; }
+        footer .content .content-right .content-right-r img {
+          vertical-align: middle; }
+        footer .content .content-right .content-right-r p {
+          font-size: 12px;
+          color: #BDBDBD; }
+  footer .friendlink {
+    text-align: center; }
+    footer .friendlink p {
+      font-size: 12px;
+      color: #BDBDBD;
+      margin-top: 20px;
+      margin-bottom: 10px; }
+
+.nimei {
+  position: fixed;
+  top: 40%;
+  left: 50px;
+  width: 30px;
+  border: 1px solid; }
+
+.nimei ul li {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  border-bottom: 1px dotted orangered; }
+
+.nimei ul li.last {
+  background: darkred;
+  color: #fff;
+  border-bottom: none; }
+
+.nimei ul li span {
+  display: none;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: red; }
+
+.nimei ul li:hover span {
+  display: block;
+  background: darkorchid;
+  color: white; }
+
+.nimei ul li span.active {
+  display: block;
+  background: white;
+  color: olivedrab; }
+
+/*# sourceMappingURL=shouyede.css.map */

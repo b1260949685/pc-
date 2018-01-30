@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="model.css"/>
+		<title></title>
+		<style>
+			
+		</style>
+	</head>
+	<body>
+	  <!--登录页面头部-->
+			<!--登录页面头部-->
+			<header>
+				<div class="header">
+					<!--logo标志-->
+					<div class="logo">
+						<img src="img/登录页完成效果_03.png"/>
+					</div>
+					<!--指南-->
+					<div class="guild">
+						<span>您好，欢迎光临1号店！</span>
+						<a href="../登录页面/登录页面.html">请登录</a>
+						<span>
+							<img src="img/2018-01-12_141722.png" class="a1"/>
+							<span>帮助中心</span>
+						    <img src="img/2018-01-12_141731.png" class="a2"/>
+						</span>
+					</div>
+				</div>
+			</header>
+			<!-------------------main主体------------>
+			<main>
+				<div class="main">
+					<h1>1号店注册</h1>
+				 <!--注册：regsiter-->
+				<input type="text" class="regsiter" placeholder="手机号" pattern="/^1[3|4|5|7|8][0-9]\d{4,8}$/" maxlength="11" oninvalid="setCustomValidity('脑子是个好东西.希望你也有');" required/>
+				<input type="text" class="regsiter-a" placeholder="手机号" pattern="/^1[3|4|5|7|8][0-9]\d{4,8}$/" maxlength="11" oninvalid="setCustomValidity('脑子是个好东西.希望你也有');" required/>
+				<button>获取验证码</button>
+				<!--密码框-->
+				<input type="password" placeholder="设置密码" maxlength="15" class="mima" pattern="/^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]{6,22}$/" oninvalid="setCustomValidity('脑子是个好东西.希望你也有');" required/>
+				<input type="password" placeholder="确认密码" maxlength="15" class="mima" pattern="/^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]{6,22}$/" oninvalid="setCustomValidity('脑子是个好东西.希望你也有');" required/>
+                   <!--指南：guild-->    				
+				<div class="guild">
+					<span>点击注册，表示您同意1号店<a href="#"><<用户协议>></a></span>
+				</div>
+				<!--登陆：login-->
+				<a href="../登录页面/登录页面.html"><button class="login">同意协议并注册</button></a>
+				<!----------------尾：footer　------------->	
+				<p class="footer-top">
+					泸ICP备13044278号 | 合字.B2-20130004 | 营业执照
+				</p>
+				<p class="footer-botton">
+					Copyright&copy 1号店网上超市 2017-2016，All Rights Reserved
+				</p>
+				</div>
+			</main>
+	</body>
+	<script type="text/javascript">
+		var a=document.querySelector("button");
+		var input=document.querySelectorAll("input");
+		if(localStorage.message){
+            var arr=JSON.parse(localStorage.message);
+        }else{
+            var arr=[];
+   		}
+		a.onclick=function(){
+			var josn={
+				"sj":input[0].value,
+				"pase":input[2].value
+			}
+			arr.push(josn);
+			var str=JSON.stringify(arr);
+			localStorage.setItem('message',str);
+		}
+	</script>
+</html>

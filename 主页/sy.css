@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none; }
+
+.head-top {
+  height: 40px;
+  background: linear-gradient(to bottom, #D4D4D4, #F5F5F5);
+  line-height: 40px;
+  font-size: 12px;
+  color: #72818C; }
+  .head-top p {
+    float: left;
+    margin-left: 50px; }
+  .head-top .head_right {
+    float: right;
+    margin-right: 50px; }
+    .head-top .head_right div {
+      float: left;
+      display: inline; }
+    .head-top .head_right ul {
+      float: left; }
+      .head-top .head_right ul li {
+        float: left;
+        margin-left: 5px;
+        position: relative; }
+        .head-top .head_right ul li ol {
+          position: absolute;
+          display: none; }
+          .head-top .head_right ul li ol li {
+            width: 100px;
+            text-align: center;
+            clear: both;
+            line-height: 20px;
+            border: 1px solid red; }
+      .head-top .head_right ul .show:hover ol {
+        display: block; }
+    .head-top .head_right a {
+      color: #FD8D65; }
+    .head-top .head_right .attention img {
+      height: 20px;
+      vertical-align: middle; }
+
+.logo {
+  height: 140px; }
+  .logo .logo-a {
+    float: left;
+    margin-top: 33px;
+    margin-left: 60px; }
+  .logo .search-a {
+    float: left;
+    margin-left: 140px;
+    margin-top: 45px; }
+    .logo .search-a form {
+      margin: 0;
+      padding: 0;
+      font-size: 0; }
+      .logo .search-a form input:nth-of-type(1) {
+        width: 445px;
+        height: 40px;
+        border: none;
+        padding: 0 10px;
+        outline: none;
+        border: 3px solid red; }
+      .logo .search-a form input:nth-of-type(2) {
+        width: 94px;
+        height: 40px;
+        border: none;
+        line-height: 40px;
+        outline: none;
+        background: red;
+        color: #fff; }
+    .logo .search-a .span {
+      margin-top: 5px;
+      margin-right: 10px;
+      font-size: 12px;
+      color: #BE9A8A; }
+  .logo .shop {
+    float: left;
+    margin-left: 230px;
+    margin-top: 45px;
+    height: 40px;
+    width: 130px;
+    background: #F6F6F6;
+    text-align: center;
+    border: none; }
+    .logo .shop img {
+      vertical-align: middle;
+      margin-right: 20px; }
+
+nav {
+  line-height: 40px;
+  clear: both;
+  height: 40px;
+  border-bottom: red 3px solid;
+  width: 1200px;
+  margin: 0 auto; }
+  nav p {
+    float: left;
+    width: 215px;
+    background: #fff;
+    padding-left: 30px;
+    box-sizing: border-box;
+    color: #fff;
+    background: #ff3c3c; }
+  nav ul {
+    margin-left: 10px;
+    float: left;
+    width: 740px; }
+    nav ul li {
+      margin-right: 35px;
+      font-size: 14px;
+      float: left; }
+    nav ul li:nth-of-type(1), nav ul :nth-of-type(2) {
+      color: orange; }
+  nav .nav-phone {
+    width: 205px;
+    margin-left: 30px;
+    float: left; }
+    nav .nav-phone img {
+      vertical-align: middle; }
+
+footer {
+  width: 1200px;
+  height: 500px;
+  -background: orange;
+  margin: 0 auto; }
+  footer .menu div {
+    float: left;
+    margin-left: 125px;
+    text-align: center; }
+    footer .menu div img {
+      border-radius: 50%; }
+  footer .content {
+    padding: 60px 0;
+    clear: both;
+    overflow: hidden;
+    border-bottom: 1px solid #EBEBEB; }
+    footer .content .content-left {
+      float: left;
+      width: 820px; }
+      footer .content .content-left dl {
+        margin-left: 74px;
+        float: left; }
+        footer .content .content-left dl dt {
+          margin-bottom: 20px;
+          font-size: 16px; }
+        footer .content .content-left dl dd {
+          font-size: 14px;
+          line-height: 20px;
+          color: #F2D6C2; }
+    footer .content .content-right {
+      float: left;
+      margin-left: 135px; }
+      footer .content .content-right .content-right-l {
+        float: left; }
+        footer .content .content-right .content-right-l p {
+          margin-top: 10px; }
+      footer .content .content-right .content-right-r {
+        float: left;
+        margin-left: 10px; }
+        footer .content .content-right .content-right-r img {
+          vertical-align: middle; }
+        footer .content .content-right .content-right-r p {
+          font-size: 12px;
+          color: #BDBDBD; }
+  footer .friendlink {
+    text-align: center; }
+    footer .friendlink p {
+      font-size: 12px;
+      color: #BDBDBD;
+      margin-top: 20px;
+      margin-bottom: 10px; }
+
+/*# sourceMappingURL=sy.css.map */
